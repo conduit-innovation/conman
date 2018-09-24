@@ -1,0 +1,19 @@
+{
+    "hostname": "example.com",
+    "connections": {
+        "vpn": {
+            "monitor": {
+                "if": "ppp0",
+                "icmp": "10.0.0.1"
+            },
+            "restart_cmd": "sudo systemctl restart netextender.service",
+            "interval": 10000,
+            "notify": {
+                "email": [
+                    "me@example.com",
+                    "you@example.com"
+                ]
+            }
+        }
+    }
+}
