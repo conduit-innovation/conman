@@ -1,5 +1,5 @@
 {
-  "name": "conman",
+  "name": "conman-monitor",
   "version": "1.0.0",
   "description": "Connection manager for nodejs",
   "main": "index.js",
