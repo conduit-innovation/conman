@@ -1,16 +1,16 @@
 # Conman
 
-A connection manager.
+A connection managing monitor.
 
 ## Installation
 
 - NodeJS >= 8.x.x
 
-`npm install -g conman`
+`npm install -g conman-monitor`
 
 ## Overview
 
-Conman monitors network interfaces and ICMP ping availability of hosts, and then runs a command on failure of either.
+Conman monitors network interfaces and ICMP ping availability of hosts, and then runs a command on failure of either to restart the interface, or do something else.
 
 You can set the configuration by passing an argument to `conman`. Eg. `conman config.json`. An example config JSON file is below:
 
